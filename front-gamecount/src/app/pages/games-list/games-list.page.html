@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Lista principal de juegos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!--Filtros-->
+  <ion-list>
+    <ion-item>
+      <ion-select aria-label="fruit" interface="popover" [(ngModel)]="filteredYear" placeholder="{{filteredYear}}" (change)="filterByYear($event)">
+        <ion-select-option  *ngFor="let year of yearsForCombo()" value="{{year}}">{{year}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <!--Content-->
+
+  <ion-card-content>
+    <div *ngFor="let game of gamesList">
+      <ion-list  *ngIf="game.year === filteredYear">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="{{game.cover}}" />
+          </ion-thumbnail>
+          <ion-label>{{game.name}} | {{game.value}}</ion-label>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div *ngFor="let game of gamesList">
+      <ion-list *ngIf="filteredYear === 'All'">
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="{{game.cover}}" />
+          </ion-thumbnail>
+          <ion-label>{{game.name}}</ion-label>
+        </ion-item>
+      </ion-list>
+    </div>
+  </ion-card-content>
+  <!--
+  <ion-list>
+    <span *ngFor="let game of gamesList">
+      <ion-item *ngIf="game.year === filteredYear">
+          <ion-label>
+            {{game.name}} | {{game.platform}} | {{game.year}}
+          </ion-label>
+      </ion-item>
+      <ion-item *ngIf="filteredYear === 'All'">
+          <ion-label>
+            {{game.name}} | {{game.platform}} | {{game.year}}
+          </ion-label>
+      </ion-item>
+    </span>
+  </ion-list> -->
+</ion-content>

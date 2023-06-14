@@ -1,0 +1,7 @@
+{
+  "name": "front-gamecount",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
