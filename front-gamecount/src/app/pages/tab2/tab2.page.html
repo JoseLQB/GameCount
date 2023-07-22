@@ -5,38 +5,41 @@
     </ion-title>
   </ion-toolbar>
 <ion-content [fullscreen]="true"><ion-list>
-  <ion-list>
-    <ion-item>
-      <ion-input label="Título" placeholder="Ej: Metal Gear"></ion-input>
-    </ion-item>
+  <form action="">
+    <ion-list>
+      <ion-item>
+        <ion-input [(ngModel)]="game.name"  name="name" label="Título" placeholder="Ej: Metal Gear"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Nota" type="number" placeholder="00"></ion-input>
-    </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="game.value" name="value" label="Nota" type="number" placeholder="00"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Género" type="text" placeholder="Ej: JRPG"></ion-input>
-    </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="game.genre" name="genre" label="Género" type="text" placeholder="Ej: JRPG"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Plataforma" type="text" placeholder="Ej: PS3"></ion-input>
-    </ion-item>
+      <ion-item>m
+        <ion-input [(ngModel)]="game.platform" name="platform" label="Plataforma" type="text" placeholder="Ej: PS3"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Compañía" type="text" placeholder="Ej: Capcom"></ion-input>
-    </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="game.company" name="company" label="Compañía" type="text" placeholder="Ej: Capcom"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Imagen" type="text" placeholder="url"></ion-input>
-    </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="game.cover" name="cover" label="Imagen" type="text" placeholder="url"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Año de lanzamiento" type="text" placeholder="Ej: 2017"></ion-input>
-    </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="game.launchYear" name="launchYear" label="Año de lanzamiento" type="text" placeholder="Ej: 2017"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-input label="Año" type="text" placeholder="Ej: 2023"></ion-input>
-    </ion-item>
-  </ion-list>
+      <ion-item>
+        <ion-input [(ngModel)]="game.year" name="year" label="Año" type="text" placeholder="Ej: 2023"></ion-input>
+      </ion-item>
+      <ion-button color="success" expand="block" (click)="saveNewGame()">Guardar</ion-button>
+    </ion-list>
+  </form>
 </ion-list>
 </ion-content>

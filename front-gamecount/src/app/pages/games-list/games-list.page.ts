@@ -11,7 +11,7 @@ export class GamesListPage implements OnInit {
 
   games?: Game;
   gamesList?: any;
-  filteredYear = '2014'
+  filteredYear = 'All'
 
   constructor(private gameServices : GamesService) {}
 

@@ -15,6 +15,9 @@ export class GamesService {
   public getGames() {
     return this.http.get<Game>(`${this.url}/games`);
   }
+  public postGame(game: Game) {
+    return this.http.post(`${this.url}/games`, game);
+  }
 
 
 }

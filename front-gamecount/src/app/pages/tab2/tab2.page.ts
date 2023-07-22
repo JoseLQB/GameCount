@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { GamesService } from 'src/app/services/games-service.service';
+import { Game } from 'src/app/models/game';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +10,33 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  game: Game = {
+    name: "",
+    platform: "",
+    cover: "",
+    year: "",
+    launchYear: "",
+    value: 0,
+    genre: "",
+    company: "",
+    id: 0
+
+  }
+
+  constructor(
+    private gamesService: GamesService,
+    private router: Router,
+    private activatedRoute: ActivatedRoute
+  ) {}
+
+  saveNewGame(){
+    console.log('save...')
+    this.gamesService.postGame(this.game).subscribe(
+      res=>{
+        console.log(res);
+        this.router.navigate(['/tabs/tab1']);
+      }
+    )
+  }
 
 }

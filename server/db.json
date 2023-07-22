@@ -143,23 +143,192 @@
       "genre": "Acción",
       "cover": "https://images.nintendolife.com/games/gamecube/metal_gear_solid_the_twin_snakes/cover_large.jpg"
     },
-
-
-
-
-
-
-
     {
-      "name": "Ejemplo de otro año",
-      "platform": "PS3",
-      "cover": "https://cdn.mobygames.com/covers/6791338-bioshock-infinite-playstation-3-front-cover.jpg",
-      "year": "2015",
-      "launchYear": "2013",
-      "value": 100,
+      "id": 14,
+      "platform": "PC",
+      "name": "Batman: Arckam Asylum",
+      "company": "Rocksteady",
+      "year": "2014",
+      "launchYear": "2009",
+      "value": 9,
       "genre": "Acción",
+      "cover": "https://static.posters.cz/image/1300/art-photo/batman-arkham-asylum-i167596.jpg"
+    },
+    {
+      "id": 15,
+      "platform": "PS3",
+      "name": "Sleeping Dogs",
+      "company": "Rocksteady",
+      "year": "2014",
+      "launchYear": "2012",
+      "value": 8.5,
+      "genre": "Square Enix",
+      "cover": "https://i.3djuegos.com/juegos/5336/true_crime_3/fotos/ficha/true_crime_3-1980644.jpg"
+    },
+    {
+      "id": 16,
+      "platform": "PC",
+      "name": "Dead Space",
+      "company": "EA",
+      "year": "2014",
+      "launchYear": "2008",
+      "value": 6.5,
+      "genre": "Terror",
+      "cover": "https://static.wikia.nocookie.net/gamingdatabase/images/1/18/Keyart_deadspace.jpg"
+    },
+    {
+      "id": 17,
+      "platform": "GCN",
+      "name": "Zelda Wind Waker",
+      "company": "Nintendo",
+      "year": "2014",
+      "launchYear": "2002",
+      "value": 9.5,
+      "genre": "Aventuras",
+      "cover": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/4/45/TWW_US_Box.jpg"
+    },
+    {
+      "id": 18,
+      "platform": "PS3",
+      "name": "Mass Effect",
+      "company": "EA",
+      "year": "2014",
+      "launchYear": "2007",
+      "value": 9,
+      "genre": "RPG",
+      "cover": "https://tech2sports.com/wp-content/uploads/2023/01/MV5BZjQxMThjZjAtNzZmMy00ODViLWFjNDAtMDJiOWUxZTQ0OGRiXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_-1200x1800.jpg"
+    },
+    {
+      "id": 19,
+      "platform": "PS3",
+      "name": "Tomb Raider",
+      "company": "Crystal Dynamics",
+      "year": "2014",
+      "launchYear": "2013",
+      "value": 9,
+      "genre": "Aventuras",
+      "cover": "https://i.imgur.com/gn9JQ.jpeg"
+    },
+    {
+      "id": 20,
+      "platform": "Wii U",
+      "name": "Mario Kart 8",
+      "company": "Nintendo",
+      "year": "2014",
+      "launchYear": "2014",
+      "value": 10,
+      "genre": "Carreras Arcade",
+      "cover": "https://m.media-amazon.com/images/I/71RRJ6qHPaL.jpg"
+    },
+    {
+      "id": 21,
+      "platform": "PS3",
+      "name": "Bioshock Panteón Marino Episodio 1",
       "company": "2K",
-      "id": 555
+      "year": "2014",
+      "launchYear": "2014",
+      "value": 8,
+      "genre": "Aventuras",
+      "cover": "https://img.asmedia.epimg.net/resizer/WZiAC6sejTSISpeoIdOVJpz7jkY=/644x0/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/WWEFIINRCFM4HH3KANKG2HZDXE.jpg"
+    },
+    {
+      "id": 22,
+      "platform": "PS3",
+      "name": "Bayonetta",
+      "company": "Platinum Games",
+      "year": "2014",
+      "launchYear": "2009",
+      "value": 10,
+      "genre": "Hack and Slash",
+      "cover": "https://allplay.com.pl/userdata/public/gfx/2337/bayonetta.jpg"
+    },
+    {
+      "id": 23,
+      "platform": "PS3",
+      "name": "Assassins Creed 2",
+      "company": "Ubisoft",
+      "year": "2014",
+      "launchYear": "2009",
+      "value": 8,
+      "genre": "Aventuras",
+      "cover": "https://store.ubisoft.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dw5df235dd/images/large/56c4947f88a7e300458b4690.jpg"
+    },
+    {
+      "id": 24,
+      "platform": "Wii U",
+      "name": "Bayonetta 2",
+      "company": "Platinum Games",
+      "year": "2014",
+      "launchYear": "2014",
+      "value": 10,
+      "genre": "Hack and Slash",
+      "cover": "https://m.media-amazon.com/images/I/91+CUgg+YCL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 25,
+      "platform": "PS3",
+      "name": "The Last of Us",
+      "company": "Naughty Dog",
+      "year": "2014",
+      "launchYear": "2013",
+      "value": 10,
+      "genre": "Aventuras",
+      "cover": "https://m.media-amazon.com/images/I/7108SeGiXSL.jpg"
+    },
+    {
+      "id": 26,
+      "platform": "PS3",
+      "name": "Bioshock Panteón Marino Episodio 2",
+      "company": "2K",
+      "year": "2014",
+      "launchYear": "2014",
+      "value": 9,
+      "genre": "Aventuras",
+      "cover": "https://cdgalaxis.hu/termekkepek/nagy/dig/dig-bioshock-infinite-burial-at-sea-episode-2-dlc-letoltokod.jpg"
+    },
+    {
+      "id": 27,
+      "platform": "PS3",
+      "name": "The Last of Us: Left Behind",
+      "company": "Naughty Dog",
+      "year": "2014",
+      "launchYear": "2014",
+      "value": 10,
+      "genre": "Aventuras",
+      "cover": "https://s3.amazonaws.com/cdn-thumbthrone/wp-content/uploads/2014/02/Left-Behind-Cover1.jpg"
+    },
+    {
+      "name": "God of War 2",
+      "platform": "PS3",
+      "cover": "https://m.media-amazon.com/images/M/MV5BYWQ5ZTM1YmMtNjQ2Ny00OGU4LWI5ZGMtOWNkZTY0MjJjNTZjXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+      "year": "2015",
+      "launchYear": "2010",
+      "value": 8.5,
+      "genre": "Hack and Slash",
+      "company": "Sony Santa Monica",
+      "id": 28
+    },
+    {
+      "name": "Little Inferno",
+      "platform": "PC",
+      "cover": "https://thumbnails.pcgamingwiki.com/7/7b/Little-Inferno.jpg/300px-Little-Inferno.jpg",
+      "year": "2015",
+      "launchYear": "2012",
+      "value": 8,
+      "genre": "Puzzle",
+      "company": "Tomorrow Corporation",
+      "id": 29
+    },
+    {
+      "name": "Pokémon Omega Rubí",
+      "platform": "3DS",
+      "cover": "https://images.nintendolife.com/games/3ds/pokemon_omega_ruby_and_alpha_sapphire/cover_large.jpg",
+      "year": "2015",
+      "launchYear": "2014",
+      "value": 9.5,
+      "genre": "JRPG",
+      "company": "Game Freak",
+      "id": 30
     }
   ],
   "platforms": [
