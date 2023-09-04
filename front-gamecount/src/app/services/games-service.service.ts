@@ -6,7 +6,7 @@ import { Game } from '../models/game';
   providedIn: 'root'
 })
 export class GamesService {
-  private url = 'http://localhost:3000';
+  private url = 'http://localhost:3000/api';
   constructor(private http: HttpClient) { }
 
   public pruebaService(){

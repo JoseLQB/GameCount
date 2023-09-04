@@ -329,6 +329,28 @@
       "genre": "JRPG",
       "company": "Game Freak",
       "id": 30
+    },
+    {
+      "name": "Infamous: Second Son",
+      "platform": "PS4",
+      "cover": "https://i.3djuegos.com/juegos/9692/infamous_second_son/fotos/ficha/infamous_second_son-2471180.webp",
+      "year": "2015",
+      "launchYear": "2014",
+      "value": 8.5,
+      "genre": "Acción",
+      "company": "Sacker Punch",
+      "id": 31
+    },
+    {
+      "name": "Uncharted: El abismo de oro",
+      "platform": "PS Vita",
+      "cover": "https://media.vandal.net/m/13901/201211492034_1.jpg",
+      "year": "2015",
+      "launchYear": "2012",
+      "value": 8,
+      "genre": "Acción",
+      "company": "Naughty Dog",
+      "id": 32
     }
   ],
   "platforms": [
@@ -408,6 +430,13 @@
       "name": "Wii U",
       "company": "Nintendo",
       "image": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/systems_11/wii_u_11/H2x1_generic_WiiU_image1280w.jpg"
+    },
+    {
+      "id": 12,
+      "nameid": "Vita",
+      "name": "PS Vita",
+      "company": "Sony",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/PlayStation_Vita_illustration.svg/1200px-PlayStation_Vita_illustration.svg.png"
     }
   ]
 }
