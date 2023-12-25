@@ -11,12 +11,15 @@ export class GamesListPage implements OnInit {
 
   games?: Game;
   gamesList?: any;
+  yearsList?: any;
   filteredYear = 'All'
+  
 
   constructor(private gameServices : GamesService) {}
 
 
   ngOnInit(): void {
+    this.yearsForCombo();
     console.log(this.gameServices.pruebaService())
     this.getAllGames();
   }
@@ -31,23 +34,24 @@ export class GamesListPage implements OnInit {
     )
   }
 
-  yearsForCombo(){
-    const years: any[] = []
-    if(this.gamesList){
-      years.push('All');
-      this.gamesList.forEach((element : any) => {
-        years.push(element.year);
-      });
-      return years.filter((value, index, self) =>{
-        return self.indexOf(value)=== index;
-      })
-    }
-    return;
+  getGameByYear(year: string){
+    return this.gameServices.getGamesByYear(year).subscribe(
+      res=>{
+        this.games = res;
+        this.gamesList = res;
+        console.log(this.games);
+      }
+    )
   }
 
-  filterByYear(event: any){
-    this.filteredYear = event.target.value;
-    console.log(this.filteredYear)
+  yearsForCombo(){
+    return this.gameServices.getYearList().subscribe(
+      res=>{
+        this.yearsList = res;
+        this.yearsList.push('All');
+        console.log(this.yearsList)
+      }
+    )
   }
 
 

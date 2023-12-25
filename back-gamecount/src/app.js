@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
-const port = 3000; // Puedes cambiar el puerto si es necesarioconst 
+const port = 3000; 
 const gameRoutes = require('./routes'); 
 
 app.use(bodyParser.json());

@@ -10,8 +10,8 @@
   <!--Filtros-->
   <ion-list>
     <ion-item>
-      <ion-select aria-label="fruit" interface="popover" [(ngModel)]="filteredYear" placeholder="{{filteredYear}}" (change)="filterByYear($event)">
-        <ion-select-option  *ngFor="let year of yearsForCombo()" value="{{year}}">{{year}}</ion-select-option>
+      <ion-select aria-label="fruit" interface="popover" [(ngModel)]="filteredYear" placeholder="{{filteredYear}}">
+        <ion-select-option  *ngFor="let year of yearsList" value="{{year}}">{{year}}</ion-select-option>
       </ion-select>
     </ion-item>
   </ion-list>

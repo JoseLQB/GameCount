@@ -351,6 +351,127 @@
       "genre": "Acción",
       "company": "Naughty Dog",
       "id": 32
+    },
+    {
+      "name": "Dragon Ball Xenoverse",
+      "platform": "PS4",
+      "cover": "https://image.ceneostatic.pl/data/products/31724362/i-dragon-ball-xenoverse-gra-ps4.jpg",
+      "year": "2015",
+      "launchYear": "2015",
+      "value": 9.5,
+      "genre": "Lucha",
+      "company": "Bandai Namco",
+      "id": 33
+    },
+    {
+      "name": "Final Fantasy Type-0 HD",
+      "platform": "PS4",
+      "cover": "https://images.blokker.nl/1620000/hires/1625387_2fc7b4a6.jpg",
+      "year": "2015",
+      "launchYear": "2015",
+      "value": 9.5,
+      "genre": "JRPG",
+      "company": "Square Enix",
+      "id": 34
+    },
+    {
+      "name": "GTA IV: The Lost and Damned",
+      "platform": "PS3",
+      "cover": "https://gtatr.com/wp-content/uploads/GTA-4-The-Lost-and-Damned-Kapak.jpg",
+      "year": "2015",
+      "launchYear": "2009",
+      "value": 8.5,
+      "genre": "Sandbox",
+      "company": "Rockstar",
+      "id": 35
+    },
+    {
+      "name": "Mass Effect 3",
+      "platform": "PS3",
+      "cover": "https://2.bp.blogspot.com/-vZ9jss1x6r4/TfnqQTO9k8I/AAAAAAAAF6g/eFzN_jTs4pQ/s1600/8633620110616_121448_1_big.jpg",
+      "year": "2015",
+      "launchYear": "2012",
+      "value": 9,
+      "genre": "RPG",
+      "company": "BioWare",
+      "id": 36
+    },
+    {
+      "name": "Final Fantasy XV: Episodio Duscae",
+      "platform": "PS4",
+      "cover": "https://whatsageek.com/wp-content/uploads/2015/02/YTlXOKC.jpg",
+      "year": "2015",
+      "launchYear": "2015",
+      "value": 9,
+      "genre": "RPG de acción",
+      "company": "Square Enix",
+      "id": 37
+    },
+    {
+      "name": "Kirby Triple Deluxe",
+      "platform": "3DS",
+      "value": 8,
+      "cover": "https://cdn.mobygames.com/covers/535411-kirby-triple-deluxe-nintendo-3ds-front-cover.jpg",
+      "year": "2015",
+      "launchYear": "2014",
+      "genre": "Plataformas",
+      "company": "HAL Laboratory",
+      "id": 38
+    },
+    {
+      "name": "OlliOlli 2: Welcome to Olliwood",
+      "platform": "Vita",
+      "value": 9,
+      "cover": "https://cdn.mobygames.com/covers/1631021-olliolli2-welcome-to-olliwood-ps-vita-front-cover.jpg",
+      "year": "2015",
+      "launchYear": "2015",
+      "genre": "Sports",
+      "company": "Roll7",
+      "id": 39
+    },
+    {
+      "name": "Sine Mora",
+      "platform": "Vita",
+      "value": 5.5,
+      "cover": "https://image.jeuxvideo.com/images/jaquettes/00045224/jaquette-sine-mora-playstation-vita-cover-avant-g-1352469761.jpg",
+      "year": "2015",
+      "launchYear": "2012",
+      "genre": "Shoot'em up",
+      "company": "Digital Reality",
+      "id": 40
+    },
+    {
+      "name": "Injustice: Gods Among Us",
+      "platform": "PS4",
+      "value": 8,
+      "cover": "https://gamescenter.pe/wp-content/uploads/2018/04/Injustice-Gods-Among-Us-Ultimate-Edition-1.jpg",
+      "year": "2015",
+      "launchYear": "2013",
+      "genre": "Lucha",
+      "company": "High Voltage",
+      "id": 41
+    },
+    {
+      "name": "Metal Gear Solid",
+      "platform": "PSX",
+      "value": 10,
+      "cover": "https://psxdatacenter.com/images/hires/P/M/SLES-01734/SLES-01734-F-ALL.jpg",
+      "year": "2015",
+      "launchYear": "1998",
+      "genre": "Acción",
+      "company": "Konami",
+      "id": 42
+    },
+    {
+      "name": "New Super Mario Bros 2",
+      "platform": "3DS",
+      "value": 7,
+      "cover": "https://statics.vrutal.com/m/d2a4/d2a452edff079ca6980edcf54cc49945.jpg",
+      "year": "2015",
+      "launchYear": "2012",
+      "genre": "Plataformas",
+      "company": "Nintendo",
+      "id": 43
     }
   ],
   "platforms": [
